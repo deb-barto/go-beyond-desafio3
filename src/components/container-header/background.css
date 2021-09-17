@@ -1,0 +1,26 @@
+.main-background{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+}
+.avatar-position{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+    width: 100vw;
+    height:100px;
+}
+.fundo{
+    width:75vw;
+    height:250px;
+    margin-top:20px;
+    background-image: url("../img/background.jpg");
+    background-size:contain;
+    background-size:450px;
+    border-radius: 10px;
+
+}
