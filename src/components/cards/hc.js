@@ -7,7 +7,7 @@ function CardHc() {
  
     return (
         <div className="cards-container">
-            <div className="hc1">
+            <div className="hc1 total">
               <div className="imagem">
                   <a href="/" className="gb">
                       <h3 className="titlecard"> Aws - VTEX.io</h3>
@@ -15,14 +15,14 @@ function CardHc() {
                </div>
             </div>
 
-            <div className="hc2">
+            <div className="hc2 total">
               <div className="imagem">
                   <a href="/" className="gb">
                       <h3 className="titlecard"> Up Medal - VTEX.io </h3>
                   </a>
               </div>
             </div>
-            <div className="hc3">
+            <div className="hc3 total">
             <div className="imagem">
                <a href="/" className="gb">
                    <h3 className="titlecard">Mimir E-commerce</h3>
@@ -30,7 +30,7 @@ function CardHc() {
             </div>
 
             </div>
-            <div className="hc4">
+            <div className="hc4 total">
             <div className="imagem">
                <a href="/" className="gb">
                    <h3 className="titlecard">Dream Maker - Landing Page</h3>

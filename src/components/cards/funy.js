@@ -7,7 +7,7 @@ function CardJS() {
  
     return (
         <div className="cards-container">
-            <div className="js1">
+            <div className="js1 total">
               <div className="imagem">
                   <a href="/" className="gb">
                       <h3 className="titlecard">Drum Rock</h3>
@@ -15,14 +15,14 @@ function CardJS() {
                </div>
             </div>
 
-            <div className="js2">
+            <div className="js2 total">
               <div className="imagem">
                   <a href="/" className="gb">
                       <h3 className="titlecard">Let's Draw </h3>
                   </a>
               </div>
             </div>
-            <div className="js3">
+            <div className="js3 total">
                 <div className="imagem">
                     <a href="/" className="gb">
                         <h3 className="titlecard">Quizz do Milhão</h3>

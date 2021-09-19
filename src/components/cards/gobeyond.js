@@ -6,7 +6,7 @@ function CardGb() {
  
     return (
           <div className="cards-container">
-              <div className="gb1">
+              <div className="gb1 total">
                 <div className="imagem">
                     <a href="/" className="gb">
                         <h3 className="titlecard">Site Go Beyond - Loja </h3>
@@ -14,14 +14,14 @@ function CardGb() {
                  </div>
               </div>
 
-              <div className="gb2">
+              <div className="gb2 total">
                 <div className="imagem">
                     <a href="/" className="gb">
                         <h3 className="titlecard">Controle da Vendas </h3>
                     </a>
                 </div>
               </div>
-              <div className="gb3">
+              <div className="gb3 total">
               <div className="imagem">
                  <a href="/" className="gb">
                      <h3 className="titlecard">Portfólio Pessoal</h3>
@@ -29,7 +29,7 @@ function CardGb() {
               </div>
 
               </div>
-              <div className="gb4">
+              <div className="gb4 total">
               <div className="imagem">
                  <a href="/" className="gb">
                      <h3 className="titlecard">Desafio Final</h3>

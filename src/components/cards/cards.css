@@ -2,10 +2,11 @@
 
 .cards-container{
     margin: auto;
-    width:70vw;
+    width:75vw;
     display:flex;
     flex-wrap: wrap;
     justify-content:center;
+    margin-top: 20px;
 }
 .imagem{
      width:100%;
@@ -24,6 +25,16 @@
     background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(12, 12, 12, 0.589));
     cursor: pointer;
 }
+
+
+.total{
+    max-height:150px;
+    margin-top:50px;
+}
+.total:hover{
+    transform: translate(0px, -5px);
+}
+
 .titlecard{
     font-family:'Montserrat', sans-serif;
     font-weight: bold;
@@ -35,10 +46,9 @@
 }
 .gb1{
     background-image: url(../img/bg1.gif);
-    background-size: auto 250px;
+    background-size: auto 150px;
     background-position: center;
     width: 23%;
-    height:250px;
     border-radius:15px;
     margin:10px;
     font-family:'Montserrat', sans-serif;
@@ -47,10 +57,9 @@
 }
 .gb2{
     background-image: url(../img/bg2.gif);
-    background-size: auto 250px;
+    background-size: auto 150px;
     background-position: center;
     width:23%;
-    height:250px;
     border-radius:15px;
     margin:10px;
     font-family:'Montserrat', sans-serif;
@@ -59,7 +68,7 @@
 }
 .gb3{
     background-image: url(../img/bg3.gif);
-    background-size: auto 250px;
+    background-size: auto 150px;
     background-position: center;
     width:23%;
     height:250px;
@@ -71,7 +80,7 @@
 }
 .gb4{
     background-image: url(../img/bg4.gif);
-    background-size: auto 250px;
+    background-size: auto 150px;
     background-position: center;
     width:23%;
     height:250px;
@@ -86,7 +95,7 @@
 /** hc background**/
 .hc1{
     background-image: url(../img/bg5.gif);
-    background-size: auto 250px;
+    background-size: auto 150px;
     background-position: center;
     width:23%;
     height:250px;
@@ -98,7 +107,7 @@
 }
 .hc2{
     background-image: url(../img/bg6.gif);
-    background-size: auto 250px;
+    background-size: auto 150px;
     background-position: center;
     width:23%;
     height:250px;
@@ -110,7 +119,7 @@
 }
 .hc3{
     background-image: url(../img/bg7.gif);
-    background-size: auto 250px;
+    background-size: auto 150px;
     background-position: center;
     width:23%;
     height:250px;
@@ -123,7 +132,7 @@
 
 .hc4{
     background-image: url(../img/bg8.gif);
-    background-size: auto 250px;
+    background-size: auto 150px;
     background-position: center;
     width:23%;
     height:250px;
@@ -138,7 +147,7 @@
 
 .js1{
     background-image: url(../img/bg9.gif);
-    background-size: auto 250px;
+    background-size: auto 150px;
     background-position: center;
     width:23%;
     height:250px;
@@ -151,7 +160,7 @@
 
 .js2{
     background-image: url(../img/bg10.gif);
-    background-size: auto 250px;
+    background-size: auto 150px;
     background-position: center;
     width:23%;
     height:250px;
@@ -164,7 +173,7 @@
 
 .js3{
     background-image: url(../img/bg11.gif);
-    background-size: auto 250px;
+    background-size: auto 150px;
     background-position: center;
     width:23%;
     height:250px;
@@ -179,7 +188,7 @@
 
     .gb1{
         background-image: url(../img/bg1.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width: 20%;
         height:250px;
@@ -191,7 +200,7 @@
     }
     .gb2{
         background-image: url(../img/bg2.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:20%;
         height:250px;
@@ -203,7 +212,7 @@
     }
     .gb3{
         background-image: url(../img/bg3.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:20%;
         height:250px;
@@ -215,7 +224,7 @@
     }
     .gb4{
         background-image: url(../img/bg4.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:20%;
         height:250px;
@@ -230,7 +239,7 @@
     /** hc background**/
     .hc1{
         background-image: url(../img/bg5.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:20%;
         height:250px;
@@ -242,7 +251,7 @@
     }
     .hc2{
         background-image: url(../img/bg6.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:20%;
         height:250px;
@@ -254,7 +263,7 @@
     }
     .hc3{
         background-image: url(../img/bg7.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:20%;
         height:250px;
@@ -267,7 +276,7 @@
     
     .hc4{
         background-image: url(../img/bg8.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:20%;
         height:250px;
@@ -282,7 +291,7 @@
     
     .js1{
         background-image: url(../img/bg9.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:20%;
         height:250px;
@@ -295,7 +304,7 @@
     
     .js2{
         background-image: url(../img/bg10.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:20%;
         height:250px;
@@ -308,7 +317,7 @@
     
     .js3{
         background-image: url(../img/bg11.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:20%;
         height:250px;
@@ -338,7 +347,7 @@
     
     .gb1{
         background-image: url(../img/bg1.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:40%;
         height:250px;
@@ -350,7 +359,7 @@
     }
     .gb2{
         background-image: url(../img/bg2.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:40%;
         height:250px;
@@ -362,7 +371,7 @@
     }
     .gb3{
         background-image: url(../img/bg3.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:40%;
         height:250px;
@@ -374,7 +383,7 @@
     }
     .gb4{
         background-image: url(../img/bg4.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:40%;
         height:250px;
@@ -389,7 +398,7 @@
     /** hc background**/
     .hc1{
         background-image: url(../img/bg5.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:40%;
         height:250px;
@@ -401,7 +410,7 @@
     }
     .hc2{
         background-image: url(../img/bg6.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:40%;
         height:250px;
@@ -413,7 +422,7 @@
     }
     .hc3{
         background-image: url(../img/bg7.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:40%;
         height:250px;
@@ -426,7 +435,7 @@
     
     .hc4{
         background-image: url(../img/bg8.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:40%;
         height:250px;
@@ -441,7 +450,7 @@
     
     .js1{
         background-image: url(../img/bg9.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:40%;
         height:250px;
@@ -454,7 +463,7 @@
     
     .js2{
         background-image: url(../img/bg10.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:40%;
         height:250px;
@@ -467,7 +476,7 @@
     
     .js3{
         background-image: url(../img/bg11.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:40%;
         height:250px;
@@ -502,7 +511,7 @@
     }
     .gb1{
         background-image: url(../img/bg1.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:90%;
         height:250px;
@@ -514,7 +523,7 @@
     }
     .gb2{
         background-image: url(../img/bg2.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:90%;
         height:250px;
@@ -526,7 +535,7 @@
     }
     .gb3{
         background-image: url(../img/bg3.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:90%;
         height:250px;
@@ -538,7 +547,7 @@
     }
     .gb4{
         background-image: url(../img/bg4.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:90%;
         height:250px;
@@ -553,7 +562,7 @@
     /** hc background**/
     .hc1{
         background-image: url(../img/bg5.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:90%;
         height:250px;
@@ -565,7 +574,7 @@
     }
     .hc2{
         background-image: url(../img/bg6.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:90%;
         height:250px;
@@ -577,7 +586,7 @@
     }
     .hc3{
         background-image: url(../img/bg7.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:90%;
         height:250px;
@@ -590,7 +599,7 @@
     
     .hc4{
         background-image: url(../img/bg8.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:90%;
         height:250px;
@@ -605,7 +614,7 @@
     
     .js1{
         background-image: url(../img/bg9.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:90%;
         height:250px;
@@ -618,7 +627,7 @@
     
     .js2{
         background-image: url(../img/bg10.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:90%;
         height:250px;
@@ -631,7 +640,7 @@
     
     .js3{
         background-image: url(../img/bg11.gif);
-        background-size: auto 250px;
+        background-size: auto 150px;
         background-position: center;
         width:90%;
         height:250px;
