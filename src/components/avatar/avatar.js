@@ -14,15 +14,15 @@ function Avatar() {
                   <h4 className="job">Front-end Developer</h4>
               </div>
               <div className="Midias">
-                <a href="/" className="icon"> 
+                <a href="https://www.linkedin.com/in/debora-barto/" className="icon"> 
                     <FontAwesomeIcon icon={faLinkedin}/>
                     <h3 className="midias"> Linkedin </h3>
                 </a>
-                <a href="/" className="icon"> 
+                <a href="https://www.instagram.com/debra_barto/" className="icon"> 
                     <FontAwesomeIcon icon={faInstagram}/>
                     <h3 className="midias"> Instragram </h3>
                 </a>
-                <a href="/" className="icon"> 
+                <a href="https://github.com/hana-bananaa" className="icon"> 
                     <FontAwesomeIcon icon={faGithub}/>
                     <h3 className="midias">Github</h3>
                 </a>
