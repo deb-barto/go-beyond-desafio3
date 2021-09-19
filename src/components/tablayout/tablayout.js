@@ -49,7 +49,7 @@ export default function TabLayout() {
     >
        <ToggleButton value="GB" ><Tab><button className="btn">🚀 Go Beyond</button></Tab></ToggleButton>
        <ToggleButton value="HC"><Tab><button className="btn">👊 Hiring Coders</button></Tab></ToggleButton>
-       <ToggleButton value="JS"><Tab><button className="btn">🛸Projects Js</button></Tab></ToggleButton>
+       <ToggleButton value="JS"><Tab><button className="btn">🛸 Projects Js</button></Tab></ToggleButton>
     </StyledToggleButtonGroup>
     </div> 
     <Panel><CardGb/></Panel>
