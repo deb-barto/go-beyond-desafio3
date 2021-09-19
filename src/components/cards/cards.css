@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+.cards-container{
+    margin: auto;
+    width:70vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.imagem{
+     width:100%;
+    height:100%;
+    font-family:'Montserrat', sans-serif;
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgb(12, 12, 12));
+    border-radius:15px;
+    display:flex;
+    align-items: flex-end;
+    padding: 10px;
+    animation-duration: 1s;
+    animation-name: fade;
+   
+}
+.imagem:hover{
+    background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(12, 12, 12, 0.589));
+    cursor: pointer;
+}
+.titlecard{
+    font-family:'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.gb{
+    text-decoration:unset;
+    text-decoration:none;
+    color:white;
+}
+.gb1{
+    background-image: url(../img/bg1.gif);
+    background-size: auto 250px;
+    background-position: center;
+    width: 23%;
+    height:250px;
+    border-radius:15px;
+    margin:10px;
+    font-family:'Montserrat', sans-serif;
+    animation-duration: 1s;
+    animation-name: fade;
+}
+.gb2{
+    background-image: url(../img/bg2.gif);
+    background-size: auto 250px;
+    background-position: center;
+    width:23%;
+    height:250px;
+    border-radius:15px;
+    margin:10px;
+    font-family:'Montserrat', sans-serif;
+    animation-duration: 1s;
+    animation-name: fade;
+}
+.gb3{
+    background-image: url(../img/bg3.gif);
+    background-size: auto 250px;
+    background-position: center;
+    width:23%;
+    height:250px;
+    border-radius:15px;
+    margin:10px;
+    font-family:'Montserrat', sans-serif;
+    animation-duration: 1s;
+    animation-name: fade;
+}
+.gb4{
+    background-image: url(../img/bg4.gif);
+    background-size: auto 250px;
+    background-position: center;
+    width:23%;
+    height:250px;
+    border-radius:15px;
+    margin:10px;
+    font-family:'Montserrat', sans-serif;
+    animation-duration: 1s;
+    animation-name: fade;
+}
+
+
+/** hc background**/
+.hc1{
+    background-image: url(../img/bg5.gif);
+    background-size: auto 250px;
+    background-position: center;
+    width:23%;
+    height:250px;
+    border-radius:15px;
+    margin:10px;
+    font-family:'Montserrat', sans-serif;
+    animation-duration: 1s;
+    animation-name: fade;
+}
+.hc2{
+    background-image: url(../img/bg6.gif);
+    background-size: auto 250px;
+    background-position: center;
+    width:23%;
+    height:250px;
+    border-radius:15px;
+    margin:10px;
+    font-family:'Montserrat', sans-serif;
+    animation-duration: 1s;
+    animation-name: fade;
+}
+.hc3{
+    background-image: url(../img/bg7.gif);
+    background-size: auto 250px;
+    background-position: center;
+    width:23%;
+    height:250px;
+    border-radius:15px;
+    margin:10px;
+    font-family:'Montserrat', sans-serif;
+    animation-duration: 1s;
+    animation-name: fade;
+}
+
+.hc4{
+    background-image: url(../img/bg8.gif);
+    background-size: auto 250px;
+    background-position: center;
+    width:23%;
+    height:250px;
+    border-radius:15px;
+    margin:10px;
+    font-family:'Montserrat', sans-serif;
+    animation-duration: 1s;
+    animation-name: fade;
+}
+
+/*** js scrip ****/
+
+.js1{
+    background-image: url(../img/bg9.gif);
+    background-size: auto 250px;
+    background-position: center;
+    width:23%;
+    height:250px;
+    border-radius:15px;
+    margin:10px;
+    font-family:'Montserrat', sans-serif;
+    animation-duration: 1s;
+    animation-name: fade;
+}
+
+.js2{
+    background-image: url(../img/bg10.gif);
+    background-size: auto 250px;
+    background-position: center;
+    width:23%;
+    height:250px;
+    border-radius:15px;
+    margin:10px;
+    font-family:'Montserrat', sans-serif;
+    animation-duration: 1s;
+    animation-name: fade;
+}
+
+.js3{
+    background-image: url(../img/bg11.gif);
+    background-size: auto 250px;
+    background-position: center;
+    width:23%;
+    height:250px;
+    border-radius:15px;
+    margin:10px;
+    font-family:'Montserrat', sans-serif;
+    animation-duration: 1s;
+    animation-name: fade;
+}
+
+@media only screen and (max-width: 1420px) {
+
+    .cards-container{
+        margin: auto;
+        width:70vw;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:center;
+
+    }
+    
+    .gb1{
+        background-image: url(../img/bg1.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:48%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .gb2{
+        background-image: url(../img/bg2.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:48%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .gb3{
+        background-image: url(../img/bg3.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:48%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .gb4{
+        background-image: url(../img/bg4.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:48%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    
+    /** hc background**/
+    .hc1{
+        background-image: url(../img/bg5.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:48%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .hc2{
+        background-image: url(../img/bg6.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:48%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .hc3{
+        background-image: url(../img/bg7.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:48%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    .hc4{
+        background-image: url(../img/bg8.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:48%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    /*** js scrip ****/
+    
+    .js1{
+        background-image: url(../img/bg9.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:48%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    .js2{
+        background-image: url(../img/bg10.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:48%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    .js3{
+        background-image: url(../img/bg11.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:48%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+
+}
+@media only screen and (max-width: 600px)  {
+
+    .cards-container{
+        margin: auto;
+        width:70vw;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        transform: translate(0px, -100px);
+
+    }
+    .titlecard{
+        font-family:'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+    .gb{
+        text-decoration:unset;
+        text-decoration:none;
+        color:white;
+    }
+    .gb1{
+        background-image: url(../img/bg1.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:90%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .gb2{
+        background-image: url(../img/bg2.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:90%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .gb3{
+        background-image: url(../img/bg3.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:90%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .gb4{
+        background-image: url(../img/bg4.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:90%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    
+    /** hc background**/
+    .hc1{
+        background-image: url(../img/bg5.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:90%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .hc2{
+        background-image: url(../img/bg6.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:90%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .hc3{
+        background-image: url(../img/bg7.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:90%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    .hc4{
+        background-image: url(../img/bg8.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:90%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    /*** js scrip ****/
+    
+    .js1{
+        background-image: url(../img/bg9.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:90%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    .js2{
+        background-image: url(../img/bg10.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:90%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    .js3{
+        background-image: url(../img/bg11.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:90%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+
+}
+
+
+@keyframes  fade  {
+    from{
+        
+        opacity: 0;
+        transform: translate(0px, 4px);
+    }
+    to{
+        
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+}
