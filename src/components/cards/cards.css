@@ -175,7 +175,157 @@
     animation-name: fade;
 }
 
-@media only screen and (max-width: 1420px) {
+@media only screen and (max-width: 1428px) {
+
+    .gb1{
+        background-image: url(../img/bg1.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width: 20%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .gb2{
+        background-image: url(../img/bg2.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:20%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .gb3{
+        background-image: url(../img/bg3.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:20%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .gb4{
+        background-image: url(../img/bg4.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:20%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    
+    /** hc background**/
+    .hc1{
+        background-image: url(../img/bg5.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:20%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .hc2{
+        background-image: url(../img/bg6.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:20%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    .hc3{
+        background-image: url(../img/bg7.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:20%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    .hc4{
+        background-image: url(../img/bg8.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:20%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    /*** js scrip ****/
+    
+    .js1{
+        background-image: url(../img/bg9.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:20%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    .js2{
+        background-image: url(../img/bg10.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:20%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+    .js3{
+        background-image: url(../img/bg11.gif);
+        background-size: auto 250px;
+        background-position: center;
+        width:20%;
+        height:250px;
+        border-radius:15px;
+        margin:10px;
+        font-family:'Montserrat', sans-serif;
+        animation-duration: 1s;
+        animation-name: fade;
+    }
+    
+
+
+}
+
+
+
+@media only screen and (max-width: 1300px) {
 
     .cards-container{
         margin: auto;
